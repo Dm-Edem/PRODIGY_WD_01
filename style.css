@@ -1,0 +1,74 @@
+body{
+    background-color: black ;
+    margin: 0;
+    
+}
+
+header{
+    background-color:black;
+    height:5em;
+    display:flex;  
+    align-items:center;
+    position: sticky;
+    top:0; 
+    transition: backgroun-color 0.4s ease-in-out;
+    
+}
+
+.logo{
+    position: relative;
+    font-weight: 700;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+header.scrolled{
+    background-color: beige;
+    opacity: 0.98;
+}
+
+header nav{
+    display: flex;
+    margin-left: auto;
+    padding:1.5em ;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color:white;
+    font-size: 1.3em;
+    margin:1em;
+    transition: color 0.4s ease-in-out;
+
+}
+
+/* when you scroll the links and logo change color to black*/ 
+
+header.scrolled nav a {
+    color: black
+}
+
+header.scrolled .logo {
+    color:black;
+}
+
+header nav a:hover{
+    color:aqua;
+}
+
+div{
+    height: 1500px;
+    padding: 2em 6em 2em 6em;
+}
+
+p{
+    font-size: 1.4em;
+    color: white;
+}
+
+
+
